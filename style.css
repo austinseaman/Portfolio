@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+
+.header-photo {
+    background-image: url('/Photos/needlesDistrict.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    display: inline;
+}
+a {
+    text-decoration: none;
+    font-family: 'Jomolhari', serif;
+    font-size: 24px;
+    color: white;
+    padding: 8px
+}
+a:hover {
+    text-decoration: underline black;
+}
+a:visited {
+    text-decoration: underline black;
+}
+.nav-container > h1 {
+    text-align: center;
+    color: white;
+    opacity: 0.7;
+    font-size: 80px;
+    font-family: 'Jomolhari', serif;
+}
+.content > h2 {
+    font-size: 60px;
+    font-family: 'Jomolhari', serif;
+    color: rgb(126, 126, 126);
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+h3 {
+    font-size: 24px;
+    padding: 6px;
+    font-family: 'Jomolhari', serif;
+    color: rgb(126, 126, 126);
+    /* border-top: 1px solid rgba(161, 161, 161, 0.699); */
+    text-align: center
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-family: 'Jomolhari', serif;
+    color: rgb(126, 126, 126);
+}
+.section-one {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 40% 60%;
+    text-align: center;
+    opacity: 0.9;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(161, 161, 161, 0.699);
+}
+.photo-one > img {
+    border-radius: 5px;
+    box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699);
+}
+.bio {
+    padding: 22px;
+}
+.section-two {
+    border-top: 1px solid rgba(161, 161, 161, 0.699);
+}
+i {
+    font-size: 72px
+}
+i:hover {
+    border: 3px solid rgb(94, 109, 100)
+}
+.footer {
+    text-align: center;
+    color: rgb(126, 126, 126);
+    margin-top: 60px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px solid rgba(161, 161, 161, 0.699);
+}
