@@ -14,13 +14,18 @@
 <body>
     <div class="header-photo">
         <nav class="nav-container">
+            <a class="site-logo transition-link" href="/">
+                <span class="logo-text">AS</span>
+            </a>
             <ul>
                 <li>
                     <a href="/">home</a>
                 </li>
+                <br>
                 <li>
                     <a href="/projects.html">projects</a>
                 </li>
+                <br>
                 <li>
                     <a href="/contact.html">contact</a>
                 </li>
@@ -28,27 +33,29 @@
             <h1>
                 Hello,
             </h1>
+            <div class="arr-container">
+                <a data-scroll href="#content">
+                    <div class="arrow"></div>
+                </a>
+            </div>
+            <!-- <p class="intro">
+                I'm Austin and I'm a web and software developer.
+            </p> -->
         </nav>
     </div>
-    <div class="content">
-        <h2>
-            I'm Austin.
-            <br>
-            26 year old full stack developer.
-            <br>
-            Salt Lake City, Utah.
-        </h2>
-        <br>
-        <br>
+    <div class="content" id="content">
         <div class="section-one">
             <div class="photo-one">
-                <img src="/Photos/narrows2.jpg" alt="zion" height="400px">
+                <img src="/Photos/narrows2.jpg" alt="zion" height="600px">
             </div>
             <div class="bio">
                 <p>
-                    I am a problem solver and a linguist. I write scalable, intelligible, full stack code, using MERN.
-                    I love digging through the bugs one might find in life and in code, forever seeking the most creative,
-                    and most effective solutions to get rid of them.
+                    I am a problem solver and a linguist with a strong bias towards finding solutions, instead of shutting down ideas or folding my arms when I’m stuck in the weeds.
+                    <br>
+                    <br>
+                    I write scalable, readable code, using the MERN stack, and I love dissecting the bugs one finds in life and in code, 
+                    always seeking the most creative and effective ways of addressing them.
+                    Not only am I driven by solution based thinking but also by team collaboration and agile processes for designing, building, and shipping products that create lasting impacts.
                     <br>
                     <br>
                     I am a Utah native and, in my spare time, I am a passionate outdoorsman, cyclist, writer, and learner.
@@ -58,23 +65,21 @@
                     <br>
                     -- Trebuchet, Defeatism is for Losers
                 </p>
+                <br>
+                <p>
+                    <i class="devicon-javascript-plain" title="ES6"></i>
+                    <i class="devicon-react-original" title="React"></i>
+                    <i class="devicon-html5-plain" title="HTML5"></i>
+                    <i class="devicon-css3-plain" title="CSS3"></i>
+                    <i class="devicon-nodejs-plain" title="Node.js"></i>
+                    <i class="devicon-express-original" title="Express.js"></i>
+                    <i class="devicon-mongodb-plain" title="MongoDB"></i>     
+                    <i class="devicon-git-plain" title="Git"></i>
+                </p>
             </div>
         </div>
-        <div class="section-two">
-            <h3>
-                Skillsets:
-            </h3>
-
-            <p>
-                <i class="devicon-javascript-plain"></i> <i class="devicon-react-original"></i> <i
-                    class="devicon-html5-plain"></i> <i class="devicon-css3-plain"></i>
-                <br>
-                <i class="devicon-nodejs-plain"></i> <i class="devicon-express-original"></i> <i
-                    class="devicon-mongodb-plain"></i>
-                <br>
-                <i class="devicon-git-plain"></i>
-            </p>
-        </div>
+    <!-- Make this a single page portfolio. Each link in the nav can page sroll to
+    the corresponding section -->
     </div>
     <div class="footer">
         © Austin Seaman 2019

@@ -1,98 +1,140 @@
-@import url('https://fonts.googleapis.com/css?family=Jomolhari&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Jomolhari&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap");
 
+.site-logo {
+  margin-left: 12px;
+  width: 50px;
+  height: 50px;
+  display: block;
+  overflow: visible;
+  border: 5px solid #494c4e;
+  position: relative;
+  top: 24px;
+  transform: rotate(0deg);
+  transition: transform 0.4s ease-in-out;
+  flex-shrink: 0;
+}
+.site-logo .logo-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transition: transform 0.4s ease-in-out;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+}
+.site-logo:hover {
+  opacity: 1;
+  transform: rotate(-90deg);
+  transition: transform 0.4s ease-in-out;
+}
+.site-logo:hover .logo-text {
+  transform: translate(-50%, -50%) rotate(90deg);
+  transform-origin: center;
+}
+.arr-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.arrow {
+  box-sizing: border-box;
+  text-align: center;
+  height: 5vw;
+  width: 5vw;
+  border-style: solid;
+  border-color: #494c4e;
+  border-width: 0px 1px 1px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+}
+
+.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+
+* {
+  margin: 0;
+}
 .header-photo {
-    background-image: url('/Photos/needlesDistrict.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 500px;
-    margin: auto;
+  background-image: url("/Photos/needlesDistrict.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 660px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  display: inline-block;
+  list-style-type: none;
+  margin-left: 12px;
+  padding: 0;
+  position: relative;
+  top: 32px;
 }
 li {
-    display: inline;
+  display: inline;
 }
 a {
-    text-decoration: none;
-    font-family: 'Jomolhari', serif;
-    font-size: 24px;
-    color: white;
-    padding: 8px
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  color: white;
+  padding: 8px;
 }
 a:hover {
-    text-decoration: underline black;
+  text-decoration: underline black;
 }
 a:visited {
-    text-decoration: underline black;
+  text-decoration: underline black;
 }
 .nav-container > h1 {
-    text-align: center;
-    color: white;
-    opacity: 0.7;
-    font-size: 80px;
-    font-family: 'Jomolhari', serif;
-}
-.content > h2 {
-    font-size: 60px;
-    font-family: 'Jomolhari', serif;
-    color: rgb(126, 126, 126);
-    text-align: center;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    
-}
-h3 {
-    font-size: 24px;
-    padding: 6px;
-    font-family: 'Jomolhari', serif;
-    color: rgb(126, 126, 126);
-    /* border-top: 1px solid rgba(161, 161, 161, 0.699); */
-    text-align: center
-}
-p {
-    font-size: 20px;
-    text-align: center;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-family: 'Jomolhari', serif;
-    color: rgb(126, 126, 126);
+  text-align: center;
+  color: whitesmoke;
+  font-size: 80px;
+  font-family: "Raleway", sans-serif;
+  text-shadow: 1px 2px rgba(2, 0, 0, 0.164);
 }
 .section-one {
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 40% 60%;
-    text-align: center;
-    opacity: 0.9;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-top: 1px solid rgba(161, 161, 161, 0.699);
+  /* background-color: rgb(40, 62, 68); */
+  height: 660px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  text-align: center;
+  opacity: 0.9;
+  padding-top: 30px;
 }
 .photo-one > img {
-    border-radius: 5px;
-    box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699);
+  border-radius: 5px;
+  box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699);
 }
 .bio {
-    padding: 22px;
+  padding: 22px;
 }
-.section-two {
-    border-top: 1px solid rgba(161, 161, 161, 0.699);
+.bio > h1 {
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(126, 126, 126);
+}
+.bio > p {
+  font-size: 24px;
+  text-align: left;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: "Raleway", sans-serif;
+  color: rgb(126, 126, 126);
 }
 i {
-    font-size: 72px
+  font-size: 72px;
 }
 i:hover {
-    border: 3px solid rgb(94, 109, 100)
+  border: 3px solid rgb(94, 109, 100);
 }
 .footer {
-    text-align: center;
-    color: rgb(126, 126, 126);
-    margin-top: 60px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-top: 1px solid rgba(161, 161, 161, 0.699);
+  text-align: center;
+  color: rgb(126, 126, 126);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-top: 1px solid rgba(161, 161, 161, 0.699);
 }
