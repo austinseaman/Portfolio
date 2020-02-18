@@ -19,11 +19,7 @@
             </a>
             <ul>
                 <li>
-                    <a href="/">home</a>
-                </li>
-                <br>
-                <li>
-                    <a href="/projects.html">projects</a>
+                    <a data-scroll href="#projects">projects</a>
                 </li>
                 <br>
                 <li>
@@ -43,46 +39,87 @@
             </p> -->
         </nav>
     </div>
-    <div class="content" id="content">
-        <div class="section-one">
-            <div class="photo-one">
-                <img src="/Photos/narrows2.jpg" alt="zion" height="600px">
-            </div>
-            <div class="bio">
-                <p>
-                    I am a problem solver and a linguist with a strong bias towards finding solutions, instead of shutting down ideas or folding my arms when I’m stuck in the weeds.
-                    <br>
-                    <br>
-                    I write scalable, readable code, using the MERN stack, and I love dissecting the bugs one finds in life and in code, 
-                    always seeking the most creative and effective ways of addressing them.
-                    Not only am I driven by solution based thinking but also by team collaboration and agile processes for designing, building, and shipping products that create lasting impacts.
-                    <br>
-                    <br>
-                    I am a Utah native and, in my spare time, I am a passionate outdoorsman, cyclist, writer, and learner.
-                    <br>
-                    <br>
-                    "The only limits we know are the ones we put on ourselves"
-                    <br>
-                    -- Trebuchet, Defeatism is for Losers
-                </p>
-                <br>
-                <p>
-                    <i class="devicon-javascript-plain" title="ES6"></i>
-                    <i class="devicon-react-original" title="React"></i>
-                    <i class="devicon-html5-plain" title="HTML5"></i>
-                    <i class="devicon-css3-plain" title="CSS3"></i>
-                    <i class="devicon-nodejs-plain" title="Node.js"></i>
-                    <i class="devicon-express-original" title="Express.js"></i>
-                    <i class="devicon-mongodb-plain" title="MongoDB"></i>     
-                    <i class="devicon-git-plain" title="Git"></i>
-                </p>
-            </div>
+    <div class="section-one" id="content">
+        <div class="photo-one">
+            <img src="/Photos/narrows2.jpg" alt="zion" height="600px">
         </div>
+        <div class="bio">
+            <p>
+                I am a problem solver and a linguist with a strong bias towards finding solutions, instead of
+                shutting down ideas or folding my arms when I’m stuck in the weeds.
+                <br>
+                <br>
+                I write scalable, readable code, using the MERN stack, and I love dissecting the bugs one finds in
+                life and in code,
+                always seeking the most creative and effective ways of addressing them.
+                Not only am I driven by solution based thinking but also by team collaboration and agile processes
+                for designing, building, and shipping products that create lasting impacts.
+                <br>
+                <br>
+                I am a Utah native and, in my spare time, I am a passionate outdoorsman, cyclist, writer, and
+                learner.
+                <br>
+                <br>
+                "The only limits we know are the ones we put on ourselves"
+                <br>
+                -- Trebuchet, Defeatism is for Losers
+            </p>
+            <br>
+            <p>
+                <i class="devicon-javascript-plain" title="ES6"></i>
+                <i class="devicon-react-original" title="React"></i>
+                <i class="devicon-html5-plain" title="HTML5"></i>
+                <i class="devicon-css3-plain" title="CSS3"></i>
+                <i class="devicon-nodejs-plain" title="Node.js"></i>
+                <i class="devicon-express-original" title="Express.js"></i>
+                <i class="devicon-mongodb-plain" title="MongoDB"></i>
+                <i class="devicon-git-plain" title="Git"></i>
+            </p>
+        </div>
+    </div>
     <!-- Make this a single page portfolio. Each link in the nav can page sroll to
     the corresponding section -->
+    <div class="projects" id="projects">
+        <img src="/Photos/KayaWebStore.png" alt="kayaStore" height="400px" width="600px" class="img-one">
+        <p class="desc1">
+            A fully responsive, scalable web app and online store that I built for a local painter, using MERN stack
+            technologies.
+            A mongoDB database contains the artists products and, upon admin login, they are able to list additional
+            pieces and update/delete existing products.
+            Integrated with EmailJS and Stripe API to take inquiries via email and payments for products.
+            <br>
+            <br>
+            Tech Toolbox: React, Axios, Mongoose, MongoDB, EmailJS, Stripe API
+        </p>
+
+        <a href="http://vtrade.herokuapp.com/" class="img-two"><img src="/Photos/VTrade.png" alt="VTrade" height="400px"
+                width="600px"></a>
+        <p class="desc2">A collaborative project with 4 other developers, that allows for college students to sell
+            their outdoor recreational gear to make some extra money to make it through the semester, without going
+            hungry.
+            Deployed through Heroku.
+            <br>
+            <br>
+            Tech Toolbox: React, Axios, Mongoose, MongoDB, Adobe Spark
+        </p>
+
+        <img src="/Photos/MusicGenreApi.png" alt="Genre" height="400px" width="600px" class="img-three">
+        <p class="desc3">A genre discovery app.
+            The user can choose a genre in which they have interest, set the limit for how many tracks they'd like
+            to return, and the app makes a call to the Openwhyd.org music API, to get the site's most popular
+            tracks within that genre, according to user data.
+            <br>
+            <br>
+            Tech Toolbox: React, Axios, Openwhyd.org API
+        </p>
     </div>
     <div class="footer">
-        © Austin Seaman 2019
+        <a href="mailto:apseaman0@gmail.com"><img src="/Photos/email.png" alt="email-address" title="apseaman0@gmail.com" height="60px"></a>
+        <img src="/Photos/mobile-phone.png" alt="phone-number" title="(801) 793-6858" height="60px">
+        <a href="https://linkedin.com/in/austinseaman"><img src="/Photos/assistance.png" alt="linkedin" height="60px"></a>
+        <a href="https://twitter.com/AusSeaSLC"><img src="/Photos/arroba.png" alt="twitter" height="60px"></a>
+        <br>
+        © Austin Seaman 2020
     </div>
     <script src="app.js"></script>
 </body>
