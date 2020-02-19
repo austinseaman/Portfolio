@@ -136,7 +136,7 @@ i:hover {
 }
 .projects > img {
   border-radius: 5px;
-  box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699);
+  /* box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699); */
 }
 .projects > .img-one {
   grid-column-start: 1;
@@ -144,8 +144,6 @@ i:hover {
   grid-row-end: 2;
 }
 .projects > .img-two {
-  height: 250px;
-  width: 250px;
   grid-column-start: 2;
   grid-row-start: 2;
 }
