@@ -152,7 +152,7 @@ i:hover {
   grid-row-start: 3;
 }
 .desc1 {
-  font-family: "Raleway", sans-serif; Times, serif;
+  font-family: "Raleway", sans-serif;
   font-size: 24px;
   padding: 22px;
 }
@@ -176,3 +176,5 @@ i:hover {
   padding-bottom: 12px;
   border-top: 1px solid rgba(161, 161, 161, 0.699);
 }
+
+@media only screen and 
