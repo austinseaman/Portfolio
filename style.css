@@ -125,7 +125,7 @@ i:hover {
 .projects {
   display: grid;
   grid-template-columns: repeat(2, 600px);
-  grid-template-rows: repeat(3, 400px);
+  grid-template-rows: repeat(4, 400px);
   grid-gap: 75px;
   text-align: center;
   opacity: 0.9;
@@ -138,18 +138,34 @@ i:hover {
   border-radius: 5px;
   /* box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699); */
 }
-.projects > .img-one {
-  grid-column-start: 1;
+.projects > .img-zero {
+  grid-column-start: 2;
   grid-row-start: 1;
   grid-row-end: 2;
 }
+.nth {
+  border-radius: 5px;
+ }
+.projects > .img-one {
+  grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
 .projects > .img-two {
   grid-column-start: 2;
-  grid-row-start: 2;
+  grid-row-start: 3;
 }
+.second {
+  border-radius: 5px;
+ }
 .projects > .img-three {
   grid-column-start: 1;
-  grid-row-start: 3;
+  grid-row-start: 4;
+}
+.desc0 {
+  font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  margin-top: 50px;
 }
 .desc1 {
   font-family: "Raleway", sans-serif;
@@ -317,16 +333,27 @@ i:hover {
     border-radius: 5px;
     /* box-shadow: 2px 3px 1.5px rgba(161, 161, 161, 0.699); */
   }
-  .projects > .img-one {
-    grid-column-start: 1;
+  .projects > .img-zero {
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 2;
     width: 500px;
     height: 300px;
   }
+  .nth {
+    width: 500px;
+    height: 300px
+  }
+  .projects > .img-one {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    width: 500px;
+    height: 300px;
+  }
   .projects > .img-two {
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
     width: 500px;
     height: 300px;
   }
@@ -336,9 +363,14 @@ i:hover {
   }
   .projects > .img-three {
     grid-column-start: 1;
-    grid-row-start: 3;
+    grid-row-start: 4;
     width: 500px;
     height: 300px;
+  }
+  .desc0 {
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    margin-top: 0;
   }
   .desc1 {
     font-family: "Raleway", sans-serif;
@@ -350,6 +382,7 @@ i:hover {
     font-family: "Raleway", sans-serif;
     font-size: 24px;
     margin-top: 0;
+    padding: 0;
   }
   .desc3 {
     font-family: "Raleway", sans-serif;
@@ -506,16 +539,28 @@ i:hover {
   .projects > img {
     border-radius: 5px;
   }
-  .projects > .img-one {
-    grid-column-start: 1;
+  .projects > .img-zero {
+    grid-column-start: 2;
     grid-row-start: 1;
     grid-row-end: 2;
+    padding: 0;
+  }
+  .nth {
+    width: 375px;
+    height: 300px;
+    padding: 0px;
+    border-radius: 5px;
+  }
+  .projects > .img-one {
+    grid-column-start: 1;
+    grid-row-start: 2;
+    grid-row-end: 3;
     width: 375px;
     height: 300px;
   }
   .projects > .img-two {
     grid-column-start: 2;
-    grid-row-start: 2;
+    grid-row-start: 3;
     width: 375px;
     height: 300px;
     padding: 0px;
@@ -529,9 +574,14 @@ i:hover {
   }
   .projects > .img-three {
     grid-column-start: 1;
-    grid-row-start: 3;
+    grid-row-start: 4;
     width: 375px;
     height: 300px;
+  }
+  .desc0 {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    margin-top: 0;
   }
   .desc1 {
     font-family: "Raleway", sans-serif;
@@ -541,12 +591,12 @@ i:hover {
   }
   .desc2 {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     margin-top: 0;
   }
   .desc3 {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     padding: 0px;
     margin: 0px
   }
@@ -703,6 +753,12 @@ i:hover {
     border-radius: 5px;
     padding: 20px;
   }
+  .nth {
+    width: 375px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+  }
   .projects > .img-one {
     grid-column-start: 1;
     grid-row-start: 1;
@@ -730,6 +786,11 @@ i:hover {
     width: 375px;
     height: 300px;
   }
+  .desc0{
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+  }
   .desc1 {
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -739,7 +800,7 @@ i:hover {
   .desc2 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    margin-top: 0;
+    margin-top: 22px;
   }
   .desc3 {
     font-family: "Raleway", sans-serif;
@@ -901,6 +962,12 @@ i:hover {
     border-radius: 5px;
     padding-left: 35px;
   }
+  .nth {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+  }
   .projects > .img-one {
     width: 300px;
     height: 200px;
@@ -916,7 +983,7 @@ i:hover {
   .second {
     width: 300px;
     height: 200px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
   }
   .projects > .img-three {
@@ -924,6 +991,11 @@ i:hover {
     grid-row-start: 3;
     width: 300px;
     height: 200px;
+  }
+  .desc0 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
   }
   .desc1 {
     font-family: "Raleway", sans-serif;
@@ -934,7 +1006,7 @@ i:hover {
   .desc2 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    margin-top: 0;
+    margin-top: 22px;
   }
   .desc3 {
     font-family: "Raleway", sans-serif;
@@ -1097,6 +1169,12 @@ i:hover {
     border-radius: 5px;
     padding-left: 30px;
   }
+  .nth {
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 5px;
+  }
   .projects > .img-one {
     width: 250px;
     height: 200px;
@@ -1121,6 +1199,11 @@ i:hover {
     width: 250px;
     height: 200px;
   }
+  .desc0 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    margin-top: 0;
+  }
   .desc1 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
@@ -1130,7 +1213,7 @@ i:hover {
   .desc2 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
-    margin-top: 0;
+    margin-top: 22px;
   }
   .desc3 {
     font-family: "Raleway", sans-serif;
